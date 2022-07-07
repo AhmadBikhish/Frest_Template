@@ -15,6 +15,17 @@
             </li>
         </ul>
 
+        <ul class="navbar-nav flex-row align-items-center ms-2" style="width: 380px">
+
+        <li>
+            <div class="d-flex text-end me-2">
+                <div class="flex-grow-1">
+                    <span>تاریخ : {{ jalali(now()) }}</span>
+                </div>
+            </div>
+        </li>
+        </ul>
+
         <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
             
 
